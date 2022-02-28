@@ -1,0 +1,1224 @@
+fileFormatVersion: 2
+guid: ae5ce7290ad7d6e4685ba9a005676de2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: atlas_01_concrete block
+  - first:
+      213: 21300002
+    second: atlas_01_walkway
+  - first:
+      213: 21300004
+    second: atlas_01_rails_tile
+  - first:
+      213: 21300006
+    second: atlas_01_train
+  - first:
+      213: 21300008
+    second: atlas_01_pole
+  - first:
+      213: 21300010
+    second: atlas_01_barriers
+  - first:
+      213: 21300012
+    second: atlas_01_sewage_well_closed
+  - first:
+      213: 21300014
+    second: atlas_01_bollard
+  - first:
+      213: 21300016
+    second: atlas_01_finish_line_tile
+  - first:
+      213: 21300018
+    second: atlas_01_road_horizontal_tile
+  - first:
+      213: 21300020
+    second: atlas_01_sewage_well_open
+  - first:
+      213: 21300022
+    second: atlas_01_tree
+  - first:
+      213: 21300024
+    second: atlas_01_arrow
+  - first:
+      213: 21300026
+    second: atlas_01_road_sign
+  - first:
+      213: 21300028
+    second: atlas_01_hole_1
+  - first:
+      213: 21300030
+    second: atlas_01_road_sign_shadow
+  - first:
+      213: 21300032
+    second: atlas_01_dot0
+  - first:
+      213: 21300034
+    second: atlas_01_canister_frame0
+  - first:
+      213: 21300036
+    second: atlas_01_canister_frame1
+  - first:
+      213: 21300038
+    second: atlas_01_canister_frame2
+  - first:
+      213: 21300040
+    second: atlas_01_canister_frame3
+  - first:
+      213: 21300042
+    second: atlas_01_canister_frame4
+  - first:
+      213: 21300044
+    second: atlas_01_dot1
+  - first:
+      213: 21300046
+    second: atlas_01_hole_3
+  - first:
+      213: 21300048
+    second: atlas_01_hole_4
+  - first:
+      213: 21300050
+    second: atlas_01_dot2
+  - first:
+      213: 21300052
+    second: atlas_01_oil_spot
+  - first:
+      213: 21300054
+    second: atlas_01_dot3
+  - first:
+      213: 21300056
+    second: atlas_01_speedup_arrow_frame2
+  - first:
+      213: 21300058
+    second: atlas_01_canister_frame5
+  - first:
+      213: 21300060
+    second: atlas_01_canister_frame6
+  - first:
+      213: 21300062
+    second: atlas_01_coin_frame0
+  - first:
+      213: 21300064
+    second: atlas_01_coin_frame1
+  - first:
+      213: 21300066
+    second: atlas_01_coin_frame2
+  - first:
+      213: 21300068
+    second: atlas_01_coin_frame3
+  - first:
+      213: 21300070
+    second: atlas_01_hole_2
+  - first:
+      213: 21300072
+    second: atlas_01_blockade
+  - first:
+      213: 21300074
+    second: atlas_01_speedup_shadow
+  - first:
+      213: 21300076
+    second: atlas_01_speedup_arrow_frame1
+  - first:
+      213: 21300078
+    second: atlas_01_coin_frame4
+  - first:
+      213: 21300080
+    second: atlas_01_coin_frame5
+  - first:
+      213: 21300082
+    second: atlas_01_coin_frame6
+  - first:
+      213: 21300084
+    second: atlas_01_triangle
+  - first:
+      213: 21300086
+    second: atlas_01_speedup_arrow_frame0
+  - first:
+      213: 21300088
+    second: atlas_01_road_tile
+  - first:
+      213: 21300090
+    second: atlas_01_start_line
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atlas_01_concrete block
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 273
+        height: 1393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfdce616bf70eb459c192ac0ec3ff4f
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_walkway
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1052
+        width: 1080
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fd09edcaddf164bbf63844a22d7491
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_rails_tile
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1719
+        width: 100
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8560e11b9e45d644e98138200868571b
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_train
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1780
+        width: 556
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c26fb996448c44e9ad6c743841dea2
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_pole
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1585
+        width: 89
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c58f0fd4a7531d4889048ceefee6cac
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_barriers
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1636
+        width: 536
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684a72892fb49a144ad094ed0c42e8f5
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_sewage_well_closed
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1392
+        width: 189
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b662165e15701934db3b8ab7630af421
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_bollard
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1476
+        width: 115
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56ce24c4252971479ea86daf3e8cfef
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_finish_line_tile
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1446
+        width: 270
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164116c63a3b47a4a8b6e094fa787d9e
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_road_horizontal_tile
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 745
+        width: 80
+        height: 889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a2dac66c449624f8b3ab6abe06d55b
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_sewage_well_open
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1069
+        width: 204
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdf4b4de84a7fc49bf666e01c3d5faa
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_tree
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 592
+        width: 279
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4434a48cff23e664e98e2ad9766d7be5
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_arrow
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 904
+        width: 242
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f6231f4a0635d40bf7f59360c7cc2f
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_road_sign
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 953
+        width: 1080
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0683bc4ca827eb64fa9abb67e146ea1e
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_hole_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 620
+        width: 245
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d3bdc8086d6004483d1333645f040b
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_road_sign_shadow
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 854
+        width: 1080
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9849805875e24b4d8200d2ba0fc9e88
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_dot0
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 829
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.46872613, y: 0.52992314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7015e12da8c7645985f122f19665ca
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_canister_frame0
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 596
+        width: 166
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb808a93ef6f2749aaaa6770a6ad1c8
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_canister_frame1
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 596
+        width: 167
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83ed159b613cc245b78898ab1121a22
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_canister_frame2
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 596
+        width: 168
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedde9be0fef9574eba2e5616446fa79
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_canister_frame3
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 596
+        width: 166
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038a211d06643fa45876d55d3659e28a
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_canister_frame4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 596
+        width: 168
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078ae6f54473b214b99d7b5a78414be9
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_dot1
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 798
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61285b6c9ad139648b81d17749340ad4
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_hole_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 395
+        width: 258
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8566b2d59fcf5524b8c9f0d4efd46eaf
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_hole_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 359
+        width: 244
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe36a5cd617fa64ca01226be8fde9a7
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_dot2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 544
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144dd96fba8585a449ac9227d6199c04
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_oil_spot
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 514
+        width: 242
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b52d2106f20944aa7cc109c87ebee7
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_dot3
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 515
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675001203efa1114093d19878e872c09
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_speedup_arrow_frame2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 437
+        width: 237
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f266e7cbef751438da551cff54b3a4
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_canister_frame5
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 347
+        width: 166
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee6d3639e0255b4f88f2ef9798a17f2
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_canister_frame6
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 347
+        width: 168
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c72f0b59321e84c93e863ca458dcf8
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_coin_frame0
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 425
+        width: 141
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b78b2bd9760fe40969b32092c028ff
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_coin_frame1
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 425
+        width: 141
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17571f3451542914ba2096b47253ccf3
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_coin_frame2
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 425
+        width: 141
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffc3d9a60f740f4bb5d1357bca417b0
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_coin_frame3
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 424
+        width: 141
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6851d19d7e4d6489ebc61e378e8165
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_hole_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 136
+        width: 224
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30c19c20b79485499b4e62af49892f2
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_blockade
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 227
+        width: 236
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d461cf3abbced6b4bad385099c58a009
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_speedup_shadow
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 103
+        width: 260
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd932fcc5a30894f9433ce8a5f9911f
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_speedup_arrow_frame1
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 284
+        width: 237
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a81192de2b096b42a36144432084c75
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_coin_frame4
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 254
+        width: 141
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab99a702a64fcc94cba140dba6b21bdd
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_coin_frame5
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 254
+        width: 141
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0163b37a17e2a734e977649c617b000d
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_coin_frame6
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 254
+        width: 141
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3008e629a37351c40a86eef69aa24787
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_triangle
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 282
+        width: 132
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c28499ab757c54dafea88ba1dcdd21
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_speedup_arrow_frame0
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 130
+        width: 237
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2a285ca74c8f145b6b24cd8bf2ac56
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_road_tile
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 19
+        width: 1080
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cb33e37c9180c44a4d1eceb8e62f83
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_01_start_line
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 1080
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b321e6b64dfee2f44a101d40164e9de4
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6070d49c989fbbe4abf8e9aaa4871299
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
