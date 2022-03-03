@@ -1,0 +1,912 @@
+fileFormatVersion: 2
+guid: c82b0b0d1811b364db44621b80e4108b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: atlas_06_hud_fuel_bg
+  - first:
+      213: 21300002
+    second: atlas_06_hud_place_bg_red
+  - first:
+      213: 21300004
+    second: atlas_06_hud_pause
+  - first:
+      213: 21300006
+    second: atlas_06_hud_3
+  - first:
+      213: 21300008
+    second: atlas_06_hud_4
+  - first:
+      213: 21300010
+    second: atlas_06_hud_5
+  - first:
+      213: 21300012
+    second: atlas_06_hud_6
+  - first:
+      213: 21300014
+    second: atlas_06_hud_7
+  - first:
+      213: 21300016
+    second: atlas_06_hud_8
+  - first:
+      213: 21300018
+    second: atlas_06_hud_9
+  - first:
+      213: 21300020
+    second: atlas_06_hud_10
+  - first:
+      213: 21300022
+    second: atlas_06_hud_11
+  - first:
+      213: 21300024
+    second: atlas_06_hud_12
+  - first:
+      213: 21300026
+    second: atlas_06_hud_13
+  - first:
+      213: 21300028
+    second: atlas_06_hud_14
+  - first:
+      213: 21300030
+    second: atlas_06_hud_15
+  - first:
+      213: 21300032
+    second: atlas_06_hud_16
+  - first:
+      213: 21300034
+    second: atlas_06_hud_speed_indicator
+  - first:
+      213: 21300036
+    second: atlas_06_hud_pause_2
+  - first:
+      213: 21300038
+    second: atlas_06_hud_19
+  - first:
+      213: 21300040
+    second: atlas_06_hud_fuel_icon
+  - first:
+      213: 21300042
+    second: atlas_06_hud_fuel_icon_2
+  - first:
+      213: 21300044
+    second: atlas_06_hud_place_bg_blue
+  - first:
+      213: 21300046
+    second: atlas_06_hud_coin_flat
+  - first:
+      213: 21300048
+    second: atlas_06_hud_place_bg_yellow
+  - first:
+      213: 21300050
+    second: atlas_06_hud_fuel_indicator_frame_yellow
+  - first:
+      213: 21300052
+    second: atlas_06_hud_fuel_indicator_yellow
+  - first:
+      213: 21300054
+    second: atlas_06_hud_fuel_indicator_frame_green
+  - first:
+      213: 21300056
+    second: atlas_06_hud_fuel_indicator_frame_orange
+  - first:
+      213: 21300058
+    second: atlas_06_hud_fuel_indicator_orange
+  - first:
+      213: 21300060
+    second: atlas_06_hud_fuel_indicator_green
+  - first:
+      213: 21300062
+    second: atlas_06_hud_fuel_indicator_frame_red
+  - first:
+      213: 21300064
+    second: atlas_06_hud_fuel_indicator_red
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_bg
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 459
+        width: 239
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade9321c594884b468857f82bbba9095
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_place_bg_red
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 405
+        width: 173
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbf81980a51cdb4faa59974f96868b7
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_pause
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 425
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129b1f8262e5ea34483b01ce0185b184
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 428
+        width: 30
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b899b98c0876f1f46adead4799edb87b
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 427
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3079b6078daa44448219b989b227822
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 427
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb1900589ebbb84293f889ae0f3b7d5
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 427
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a355bbe987236d245803353920162bf8
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 427
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e8fd8e4935bb4e88980880d171ded
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 427
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a67b32415535543abf5b5c971d2503
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 427
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767989a0a6bb5934d9740debc1ba8f56
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 427
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de706024894c1b44a56e79fa554a63a
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 427
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513e189b19f7c8740bcc3f4699f7dc59
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 427
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c37d4047269a74ea9b51a5c83c5a43
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 427
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81a1168403dc24caf4bc32e6d34f46
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 427
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60086f874d6a15843a3dc939380ec09e
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 427
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949b3208d363cbf4aa131b7b923cba31
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 427
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdbaefbaff74d64abd9582074765547
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_speed_indicator
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 426
+        width: 238
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796badb7d41d65b4bb16c6a6dcf1859c
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_pause_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 335
+        width: 80
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4b986d9fb27494790c7c295be7183b
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 36
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e80775ae3dde4f44809d05fa4aaa6dc
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_icon
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 366
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c9432a879e61478543d1e69888802
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_icon_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 328
+        width: 104
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2850c265d38047b44b4ef15f537ee629
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_place_bg_blue
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 297
+        width: 173
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5443388e102f3fd4c91f6d9799fc94fb
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_coin_flat
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 383
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429d9c8ba34a3b64bb8b30aae0495253
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_place_bg_yellow
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 219
+        width: 173
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2518236bbe187ef49b893d40174176ca
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_indicator_frame_yellow
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 236
+        width: 189
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7528fb963ab3a48bfb314889e72712
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_indicator_yellow
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 238
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee71e08598769144a1079945e714e03
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_indicator_frame_green
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 160
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0a0df1d6655e040aa432fc663eb65e
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_indicator_frame_orange
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 181
+        width: 189
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6e5f075ca447e46b1e28887c05f9cc
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_indicator_orange
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 180
+        width: 100
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7f51dee12266e4d8b3f3bbd79a8e82
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_indicator_green
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 103
+        width: 98
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c0521ba38cdb44a90a2bbd3aa602f2
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_indicator_frame_red
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 120
+        width: 189
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931953739fbbd8441b9cfc0c5ca444e6
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_06_hud_fuel_indicator_red
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 124
+        width: 98
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ca25ebb962fda49a474d6bbd09db4f
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 00cfabe4b81c49640a3b57a7b7d8c88e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
