@@ -1968,3 +1968,16 @@ Received Import Request.
   path: Assets/Other Pics/EndlessRoadLogo.png
   artifactKey: Guid(b9e49f56b5bf8114f9f5517974088cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Other Pics/EndlessRoadLogo.png using Guid(b9e49f56b5bf8114f9f5517974088cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc46e6ffbe1b90a348c4cf7f17c55894') in 0.020042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2506.823207 seconds.
+  path: Assets/Other Pics/Title1.png
+  artifactKey: Guid(d30eb15fe6823e94386824037344cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Pics/Title1.png using Guid(d30eb15fe6823e94386824037344cb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613b06b0ef549c34019daa07e10df582') in 0.016116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 497.136390 seconds.
+  path: Assets/Other Pics/Title2.png
+  artifactKey: Guid(086c7b6eb21636c4d82d8b4f327bdc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Pics/Title2.png using Guid(086c7b6eb21636c4d82d8b4f327bdc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57aa7ffaa8aea25bf125331a770ba05') in 0.013569 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
