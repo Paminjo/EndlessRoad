@@ -15,11 +15,11 @@ C:/Users/Benjamin/Documents/GitHub/EndlessRoad/EndlessRoad
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60321
+49976
 Successfully changed project path to: C:/Users/Benjamin/Documents/GitHub/EndlessRoad/EndlessRoad
 C:/Users/Benjamin/Documents/GitHub/EndlessRoad/EndlessRoad
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 120.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,165 +35,165 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004478 seconds.
+Registered in 0.001620 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 113.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.378 seconds
+- Completed reload, in  0.535 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1379ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1057ms)
-			LoadAssemblies (142ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (343ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (412ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (157ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (114ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (68ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006879 seconds.
+Registered in 0.002681 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001AE8ECB4010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001E00A88EE40 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE89FA53E0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001E005344C90 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E7D9450 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001E005BE5B00 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8FDFFA60 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001E005B6D1B0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E54A2A0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001E009F3C010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E82E0B0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file data-000001E00A3AC0A0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Notifications.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E5518B0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001E00A977480 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8EFA7010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001E009F4F220 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E5518B0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001E00A22E030 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E61C230 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001E005CA8CC0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8EFD6A30 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001E009F64430 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8F4E2010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001E00A830080 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8EFD6A30 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001E00A85E290 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E7D9450 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001E00A255540 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E61C230 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001E00A22E030 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E61C230 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001E005CA8CC0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8AAC19C0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001E00B180430 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8F510220 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001E005FB8230 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E61C230 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001E00A22E030 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8A6BDE60 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001E009976010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8A804D60 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001E0097BF030 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8A6BDE60 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001E009987C20 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E232770 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file data-000001E009523840 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E30F010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001E005855010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8EFE7E40 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001E009F7B640 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E61C230 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001E009F24830 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E6F4C20 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001E00ACDEC20 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E6A9030 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001E0099B9800 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E416050 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001E0060C91A0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E87AE30 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file data-000001E00ACDEC20 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8ED08010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001E005855010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E87AE30 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001E00ACDEC20 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8FF95020 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001E005B6D1B0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E27AC00 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001E0004B3E30 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E708E30 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001E00A22E030 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8A740EC0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file data-000001E00541BBD0 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.Notifications.Android.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8A6EF090 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001E009F7B640 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE8E30F010 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001E005951180 doesn't match image C:\Users\Benjamin\Documents\GitHub\EndlessRoad\EndlessRoad\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 108.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.563 seconds
+- Completed reload, in  0.987 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2565ms)
-		BeginReloadAssembly (341ms)
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (2078ms)
-			LoadAssemblies (233ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (667ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (112ms)
-			SetupLoadedEditorAssemblies (808ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (307ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (469ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2300 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 111.2 MB.
 System memory in use after: 111.4 MB.
 
 Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2741.
-Total: 6.555000 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.230600 ms MarkObjects: 5.908800 ms  DeleteObjects: 0.047000 ms)
+Total: 2.908600 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.544000 ms  DeleteObjects: 0.021200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -207,13 +207,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78792c9cfef7318df6081c87fca2e616') in 0.028734 seconds 
+  path: Assets/2 Cars Racing by wowu/Assets/atlas/psd
+  artifactKey: Guid(61440f04676208341938b82fc4022047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Cars Racing by wowu/Assets/atlas/psd using Guid(61440f04676208341938b82fc4022047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38380ff404930ba43f42acebd0ac17b5') in 0.008221 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.413344 seconds.
-  path: Assets/2 Cars Racing by wowu/Assets/cars
-  artifactKey: Guid(7b4f0219f22cabd489d06f01bcfb7a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2 Cars Racing by wowu/Assets/cars using Guid(7b4f0219f22cabd489d06f01bcfb7a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a5117ac11a70cdbda345ad8c4d585d') in 0.009455 seconds 
+  Time since last request: 114.659345 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(d98ad1674ee8d5040ad22d07feddcab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(d98ad1674ee8d5040ad22d07feddcab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98a7d548918ff83c07a5ca063645fba') in 0.006066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.644548 seconds.
+  path: Assets/Editor/com.unity.mobile.notifications
+  artifactKey: Guid(8d94ea3741ad8d344a76cca0aa62f67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/com.unity.mobile.notifications using Guid(8d94ea3741ad8d344a76cca0aa62f67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e18b1a6f2e9099027a3ac756c6f70d') in 0.007149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset
+  artifactKey: Guid(4cee8bca36f2ab74b8feb832747fa6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset using Guid(4cee8bca36f2ab74b8feb832747fa6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44be4eeeee9ba2ddee89a18b87a805ef') in 0.050289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 189.352271 seconds.
+  path: Assets/Other Pics
+  artifactKey: Guid(69273ab60c22d9a42b60fe66453c584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Pics using Guid(69273ab60c22d9a42b60fe66453c584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e170af42b3e8c05347c021b6ea7d0d') in 0.006922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Other Pics/61e1116779fc0a9bd5bdbcc7_Frame 6.png
+  artifactKey: Guid(f4e0df3f053c19f49984c4f561adb87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Pics/61e1116779fc0a9bd5bdbcc7_Frame 6.png using Guid(f4e0df3f053c19f49984c4f561adb87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789995a5de35a3ae2f9e36d01c31a403') in 0.098891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Other Pics/EndlessRoadLogo.png
+  artifactKey: Guid(b9e49f56b5bf8114f9f5517974088cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Pics/EndlessRoadLogo.png using Guid(b9e49f56b5bf8114f9f5517974088cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b85cb4dd6cf8a73fee8f3ed29860de') in 0.016459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Other Pics/patreon_logo_icon_147253.png
+  artifactKey: Guid(95fbe2a2d04e1e7449de8a3f68fc13df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Pics/patreon_logo_icon_147253.png using Guid(95fbe2a2d04e1e7449de8a3f68fc13df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb403737ef18b4ef9b11c73e8143fb75') in 0.015045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Other Pics/Title2.png
+  artifactKey: Guid(086c7b6eb21636c4d82d8b4f327bdc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Pics/Title2.png using Guid(086c7b6eb21636c4d82d8b4f327bdc8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71535a95d130a1b7d017a3937e69af0e') in 0.016086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Other Pics/Screenshot (337d).png
+  artifactKey: Guid(ab8007bccfdbc9b4ea9b8371680d9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other Pics/Screenshot (337d).png using Guid(ab8007bccfdbc9b4ea9b8371680d9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5685d20575e150819a08dc0a7342440c') in 0.028002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.075934 seconds.
+  path: Assets/2 Cars Racing by wowu/Assets/atlas/psd/atlas_01.psd
+  artifactKey: Guid(ae5ce7290ad7d6e4685ba9a005676de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Cars Racing by wowu/Assets/atlas/psd/atlas_01.psd using Guid(ae5ce7290ad7d6e4685ba9a005676de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fe9e637a31b037fb07379f2376b8b3') in 0.035759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.932685 seconds.
+  path: Assets/2 Cars Racing by wowu/Assets/atlas/psd/atlas_01.psd
+  artifactKey: Guid(ae5ce7290ad7d6e4685ba9a005676de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2 Cars Racing by wowu/Assets/atlas/psd/atlas_01.psd using Guid(ae5ce7290ad7d6e4685ba9a005676de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a1bf53bc0a8d4de0a94a8b76f4ca50') in 0.146299 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
