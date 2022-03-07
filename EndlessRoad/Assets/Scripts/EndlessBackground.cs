@@ -24,7 +24,7 @@ public class EndlessBackground : MonoBehaviour
     {
         if(transform.position.y < - height)
         {
-            Vector2 resetPosition = new Vector2(0, height * 2f);
+            Vector2 resetPosition = new Vector2(0, height * 3f);
             transform.position = (Vector2)transform.position + resetPosition;
         }
     }
