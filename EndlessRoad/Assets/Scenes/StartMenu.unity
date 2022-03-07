@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 339493441}
   - component: {fileID: 339493442}
   m_Layer: 0
-  m_Name: 61e1116779fc0a9bd5bdbcc7_Frame 6
+  m_Name: KofiIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 716541547}
   - component: {fileID: 716541546}
   m_Layer: 0
-  m_Name: atlas_02_menu_race_button
+  m_Name: MenuButtonYellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -434,7 +434,7 @@ Transform:
   m_LocalScale: {x: 0.542266, y: 0.47591642, z: 1}
   m_Children: []
   m_Father: {fileID: 2016524779}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1139416688
 GameObject:
@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 1168972773}
   - component: {fileID: 1168972772}
   m_Layer: 0
-  m_Name: patreon_logo_icon_147253
+  m_Name: PatreonIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 1491901116}
   - component: {fileID: 1491901115}
   m_Layer: 0
-  m_Name: atlas_02_menu_garage_button
+  m_Name: MenuButtonBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -770,7 +770,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: b9e49f56b5bf8114f9f5517974088cd6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -852,7 +852,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 086c7b6eb21636c4d82d8b4f327bdc8f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1034,8 +1034,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2059355146}
   - {fileID: 716541547}
+  - {fileID: 2059355146}
   - {fileID: 1491901116}
   - {fileID: 1168972771}
   - {fileID: 339493441}
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 2059355146}
   - component: {fileID: 2059355145}
   m_Layer: 0
-  m_Name: atlas_02_menu_scores_button
+  m_Name: MenuButtonRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1123,7 +1123,7 @@ Transform:
   m_LocalScale: {x: 0.46024898, y: 0.47631976, z: 1}
   m_Children: []
   m_Father: {fileID: 2016524779}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2076688187
 GameObject:
