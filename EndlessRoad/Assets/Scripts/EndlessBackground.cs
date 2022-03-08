@@ -8,7 +8,7 @@ public class EndlessBackground : MonoBehaviour
     public Rigidbody2D rigidbody2D;
 
     private float height;
-    private float scrollSpeed = -3.5f;
+    private float scrollSpeed = -2.5f;
     
     // Start is called before the first frame update
     void Start()
