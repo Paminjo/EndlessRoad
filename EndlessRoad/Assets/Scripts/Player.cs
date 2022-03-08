@@ -14,16 +14,16 @@ public class Player : MonoBehaviour
         0.55f,
         1.7f
     };
+
     int destination = 2;
     bool destinationReached = true;
-
+    float carSpeed = 5.0f;
 
     // Start is called before the first frame update
     void Start()
     {
         //Fetch the Rigidbody component you attach from your GameObject
-        m_Rigidbody = GetComponent<Rigidbody2D>();
-        //Set the speed of the GameObject
+        m_Rigidbody = GetComponent<Rigidbody2D>();        
     }
 
     // Update is called once per frame
@@ -71,6 +71,16 @@ public class Player : MonoBehaviour
                 destinationReached = false;
             }
         }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            if (carSpeed <= 10f)
+                carSpeed++;
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            if(carSpeed > 5f)
+                carSpeed--;
+        }
     }
     private void FixedUpdate()
     {
@@ -82,7 +92,12 @@ public class Player : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(
                 transform.position, new Vector2(
-                    Positions[destination], transform.position.y), 10f * Time.deltaTime);
+                    Positions[destination], transform.position.y), carSpeed * Time.deltaTime);
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
     }
 }
