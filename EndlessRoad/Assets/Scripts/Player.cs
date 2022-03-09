@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D m_Rigidbody;
     private Vector2 startTouchPosition, endTouchPosition;
 
     float[] Positions =
@@ -19,11 +18,13 @@ public class Player : MonoBehaviour
     bool destinationReached = true;
     float carSpeed = 5.0f;
 
+    int Score = 0;
+    float Tank = 100;
+
     // Start is called before the first frame update
     void Start()
     {
         //Fetch the Rigidbody component you attach from your GameObject
-        m_Rigidbody = GetComponent<Rigidbody2D>();        
     }
 
     // Update is called once per frame
@@ -96,8 +97,29 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        
+        if(collider.gameObject.CompareTag("Coin"))
+        {
+            Score += 5;
+            collider.gameObject.SetActive(false);
+        }
+        if(collider.gameObject.tag.Equals("Canister"))
+        {
+            Tank += 20;
+            collider.gameObject.SetActive(false);
+        }
+        if (collider.gameObject.tag.Equals("StartLine"))
+        {
+            carSpeed++;
+
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("Obstacle"))
+        {
+            
+        }
     }
 }
