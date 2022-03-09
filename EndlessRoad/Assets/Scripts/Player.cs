@@ -1,12 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public GameObject[] Roads = new GameObject[3];
+
     private Vector2 startTouchPosition, endTouchPosition;
 
-    float[] Positions =
+    private float[] Positions =
     {
         -1.7f,
         -0.55f,
@@ -14,21 +14,21 @@ public class Player : MonoBehaviour
         1.7f
     };
 
-    int destination = 2;
-    bool destinationReached = true;
-    float carSpeed = 5.0f;
+    private int destination = 2;
+    private bool destinationReached = true;
+    private float carSpeed = 5.0f;
 
-    int Score = 0;
-    float Tank = 100;
+    private int Score = 0;
+    private float Tank = 100;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         //Fetch the Rigidbody component you attach from your GameObject
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
@@ -79,10 +79,11 @@ public class Player : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            if(carSpeed > 5f)
+            if (carSpeed > 5f)
                 carSpeed--;
         }
     }
+
     private void FixedUpdate()
     {
         if (Positions[destination].Equals(transform.position.x))
@@ -97,14 +98,14 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.gameObject.CompareTag("Coin"))
+        if (collider.gameObject.CompareTag("Coin"))
         {
             Score += 5;
             collider.gameObject.SetActive(false);
         }
-        if(collider.gameObject.tag.Equals("Canister"))
+        if (collider.gameObject.tag.Equals("Canister"))
         {
             Tank += 20;
             collider.gameObject.SetActive(false);
@@ -112,14 +113,28 @@ public class Player : MonoBehaviour
         if (collider.gameObject.tag.Equals("StartLine"))
         {
             carSpeed++;
+        }
+    }
 
-        }
-    }
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Obstacle"))
+        if (collision.otherCollider.GetType().Equals(typeof(PolygonCollider2D)) && collision.gameObject.CompareTag("WallObstacle"))
         {
-            
+            foreach (GameObject Road in Roads)
+            {
+                Road.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
+
+            }
+            this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
         }
-    }
+        else if (collision.otherCollider.GetType().Equals(typeof(BoxCollider2D)) && collision.gameObject.CompareTag("GroundObstacle"))
+        {
+            foreach(GameObject Road in Roads)
+            {
+                Road.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
+
+            }
+            this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
+        }
+    }   
 }

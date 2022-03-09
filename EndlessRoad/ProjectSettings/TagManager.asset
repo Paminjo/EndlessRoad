@@ -8,6 +8,8 @@ TagManager:
   - Coin
   - Canister
   - StartLine
+  - GroundObstacle
+  - WallObstacle
   layers:
   - Default
   - TransparentFX
