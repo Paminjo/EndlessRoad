@@ -1,20 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EndlessBackground : MonoBehaviour
 {
     public BoxCollider2D collider2D;
     public Rigidbody2D rigidbody2D;
-    
+
     public GameObject InteractiveObjects;
 
-    Transform[] children;
+    private Transform[] children;
     private float height;
-    private float scrollSpeed = -2.5f;
-    
+    private float scrollSpeed = -5f;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         height = collider2D.size.y;
         collider2D.enabled = false;
@@ -23,9 +21,9 @@ public class EndlessBackground : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        if(transform.position.y < - height)
+        if (transform.position.y < -height)
         {
             ResetRoadTile();
         }
@@ -35,19 +33,14 @@ public class EndlessBackground : MonoBehaviour
     {
         Vector2 resetPosition = new Vector2(0, height * 3f);
         transform.position = (Vector2)transform.position + resetPosition;
-        
+
         foreach (var child in children)
         {
             child.gameObject.SetActive(true);
         }
     }
-    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        if(true)
-        {
-            scrollSpeed -= 100;
-        }
     }
 }
