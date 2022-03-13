@@ -26,9 +26,10 @@ public class Player : MonoBehaviour
     private Transform ActualScoreText;
     private int Score = 0;
     private float Tank = 100;
+    private int ScorePerUnit = 1;
 
     //Data for Touch detection
-    public const float MinSwipeDistance = 0.17f;
+    public const float MinSwipeDistance = 0.05f;
     private Vector2 startTouchPosition, endTouchPosition;
     public static bool IsUserInputEnabled = true;
 
@@ -39,7 +40,8 @@ public class Player : MonoBehaviour
         LosingScreen.enabled = false;
 
         Score = 0;
-        
+        ScorePerUnit = 1;
+
         IsUserInputEnabled = true;
 
         ScoreTimer.Elapsed += new ElapsedEventHandler(TimerTick);
@@ -48,7 +50,7 @@ public class Player : MonoBehaviour
 
     private void TimerTick(object sender, ElapsedEventArgs e)
     {
-        Score++;
+        Score += ScorePerUnit;
     }
 
 
@@ -66,6 +68,15 @@ public class Player : MonoBehaviour
         }
 
         ScoreText.text = Score.ToString();
+
+        if(Score > 100)
+        {
+            ScorePerUnit = 3;
+            foreach(var Road in Roads)
+            {
+                Road.gameObject.GetComponent<Rigidbody2D>().velocity *= 1.00005f;
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -78,13 +89,12 @@ public class Player : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(
                 transform.position, new Vector2(
-                    Positions[destination], transform.position.y), carSpeed * Time.deltaTime);
+                    Positions[destination], transform.position.y), carSpeed * 0.050f); //Time.deltatime removed cause it is shit
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
-    {
-        collider.gameObject.SetActive(false);
+    {      
         if (collider.gameObject.CompareTag("Coin"))
         {
             Score += 10;
@@ -97,6 +107,7 @@ public class Player : MonoBehaviour
         {
             carSpeed++;
         }
+        collider.gameObject.SetActive(false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
