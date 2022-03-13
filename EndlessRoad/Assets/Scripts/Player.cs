@@ -1,8 +1,12 @@
 using UnityEngine;
+using System.Timers;
+using System;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public GameObject[] Roads = new GameObject[3];
+    public Canvas LosingScreen;
 
     //Car Movement
     private float[] Positions =
@@ -16,7 +20,10 @@ public class Player : MonoBehaviour
     private bool destinationReached = true;
     private float carSpeed = 5.0f;
 
-    //UI Data
+    //UI Data - Player info
+    private Timer ScoreTimer = new Timer(1000);
+    public Text ScoreText;
+    private Transform ActualScoreText;
     private int Score = 0;
     private float Tank = 100;
 
@@ -29,7 +36,21 @@ public class Player : MonoBehaviour
     private void Start()
     {
         //Fetch the Rigidbody component you attach from your GameObject
+        LosingScreen.enabled = false;
+
+        Score = 0;
+        
+        IsUserInputEnabled = true;
+
+        ScoreTimer.Elapsed += new ElapsedEventHandler(TimerTick);
+        ScoreTimer.Start();
     }
+
+    private void TimerTick(object sender, ElapsedEventArgs e)
+    {
+        Score++;
+    }
+
 
     // Update is called once per frame
     private void Update()
@@ -38,6 +59,13 @@ public class Player : MonoBehaviour
         {
             UserInput();
         }
+
+        if (Tank == 0)
+        {
+            UserLost();
+        }
+
+        ScoreText.text = Score.ToString();
     }
 
     private void FixedUpdate()
@@ -56,15 +84,14 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        collider.gameObject.SetActive(false);
         if (collider.gameObject.CompareTag("Coin"))
         {
-            Score += 5;
-            collider.gameObject.SetActive(false);
+            Score += 10;
         }
         if (collider.gameObject.tag.Equals("Canister"))
         {
-            Tank += 20;
-            collider.gameObject.SetActive(false);
+            Tank += 2;            
         }
         if (collider.gameObject.tag.Equals("StartLine"))
         {
@@ -73,26 +100,33 @@ public class Player : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
-    {        
+    {
         if (collision.otherCollider.GetType().Equals(typeof(PolygonCollider2D)) && collision.gameObject.CompareTag("WallObstacle"))
         {
-            IsUserInputEnabled = false;
-            foreach (GameObject Road in Roads)
-            {
-                Road.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
-            }
+            UserLost();
         }
         else if (collision.otherCollider.GetType().Equals(typeof(BoxCollider2D)) && collision.gameObject.CompareTag("GroundObstacle"))
         {
-            IsUserInputEnabled = false;
-            foreach (GameObject Road in Roads)
-            {
-                Road.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
-            }         
+            UserLost();
         }
     }
-    
-    void UserInput()
+
+    private void UserLost()
+    {
+        IsUserInputEnabled = false;
+
+        foreach (GameObject Road in Roads)
+        {
+            Road.gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
+        }
+
+        ScoreTimer.Stop();
+        LosingScreen.enabled = true;
+        ActualScoreText = LosingScreen.transform.Find("ActualScore");
+        ActualScoreText.GetComponent<Text>().text = Score.ToString();
+    }
+
+    private void UserInput()
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
