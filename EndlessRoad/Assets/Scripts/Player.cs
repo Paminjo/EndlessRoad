@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 {
     public GameObject[] Roads = new GameObject[3];
     public Canvas LosingScreen;
+    public Slider FuelBar;
 
     //Car Movement
     private float[] Positions =
@@ -25,11 +26,12 @@ public class Player : MonoBehaviour
     public Text ScoreText;
     private Transform ActualScoreText;
     private int Score = 0;
-    private float Tank = 100;
-    private int ScorePerUnit = 1;
+    private float FuelLevel = 100;    
+    private int ScorePerUnit = 5;
+    private int SpeedIncreaseToken = 1;
 
     //Data for Touch detection
-    public const float MinSwipeDistance = 0.05f;
+    //public const float MinSwipeDistance = 0.08f;
     private Vector2 startTouchPosition, endTouchPosition;
     public static bool IsUserInputEnabled = true;
 
@@ -40,7 +42,7 @@ public class Player : MonoBehaviour
         LosingScreen.enabled = false;
 
         Score = 0;
-        ScorePerUnit = 1;
+        ScorePerUnit = 1;        
 
         IsUserInputEnabled = true;
 
@@ -51,6 +53,7 @@ public class Player : MonoBehaviour
     private void TimerTick(object sender, ElapsedEventArgs e)
     {
         Score += ScorePerUnit;
+        FuelLevel -= 5;
     }
 
 
@@ -62,21 +65,27 @@ public class Player : MonoBehaviour
             UserInput();
         }
 
-        if (Tank == 0)
+        if (FuelLevel == 0)
         {
             UserLost();
         }
 
         ScoreText.text = Score.ToString();
 
-        if(Score > 100)
+        if(Score/100 >= SpeedIncreaseToken)
         {
-            ScorePerUnit = 3;
+            ScorePerUnit += 5;
             foreach(var Road in Roads)
             {
-                Road.gameObject.GetComponent<Rigidbody2D>().velocity *= 1.00005f;
+                Road.gameObject.GetComponent<Rigidbody2D>().velocity *= 1.5f;
             }
+            SpeedIncreaseToken++;
         }
+        if(FuelLevel >100)
+        {
+            FuelLevel = 100;
+        }
+        FuelBar.value = FuelLevel;
     }
 
     private void FixedUpdate()
@@ -89,7 +98,7 @@ public class Player : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(
                 transform.position, new Vector2(
-                    Positions[destination], transform.position.y), carSpeed * 0.050f); //Time.deltatime removed cause it is shit
+                    Positions[destination], transform.position.y), carSpeed * 0.15f); //Time.deltatime removed cause it is shit
         }
     }
 
@@ -101,7 +110,7 @@ public class Player : MonoBehaviour
         }
         if (collider.gameObject.tag.Equals("Canister"))
         {
-            Tank += 2;            
+            FuelLevel += 20;            
         }
         if (collider.gameObject.tag.Equals("StartLine"))
         {
@@ -112,11 +121,13 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.otherCollider.GetType().Equals(typeof(PolygonCollider2D)) && collision.gameObject.CompareTag("WallObstacle"))
+        if (collision.otherCollider.GetType().Equals(typeof(PolygonCollider2D)) 
+            && collision.gameObject.CompareTag("WallObstacle"))
         {
             UserLost();
         }
-        else if (collision.otherCollider.GetType().Equals(typeof(BoxCollider2D)) && collision.gameObject.CompareTag("GroundObstacle"))
+        else if (collision.otherCollider.GetType().Equals(typeof(BoxCollider2D)) 
+            && collision.gameObject.CompareTag("GroundObstacle"))
         {
             UserLost();
         }
@@ -135,22 +146,24 @@ public class Player : MonoBehaviour
         LosingScreen.enabled = true;
         ActualScoreText = LosingScreen.transform.Find("ActualScore");
         ActualScoreText.GetComponent<Text>().text = Score.ToString();
+        ScoreText.GetComponentInParent<Canvas>().enabled = false;
     }
 
     private void UserInput()
     {
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        //touch swipe input
+        if (Input.touchCount > 0 
+            && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             startTouchPosition = Input.GetTouch(0).position;
         }
-        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
-            startTouchPosition = Input.GetTouch(0).position;
 
-        if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Ended)
+        if (Input.touchCount == 1 
+            && Input.GetTouch(0).phase == TouchPhase.Ended)
         {
             endTouchPosition = Input.GetTouch(0).position;
 
-            if ((endTouchPosition.x < startTouchPosition.x) && transform.position.x > -1.5f)
+            if (endTouchPosition.x < startTouchPosition.x)              
             {
                 if (transform.position.x.Equals(Positions[3]))
                 {
@@ -168,8 +181,7 @@ public class Player : MonoBehaviour
                     destinationReached = false;
                 }
             }
-
-            if ((endTouchPosition.x > startTouchPosition.x) && transform.position.x < 1.5f)
+            else if (endTouchPosition.x > startTouchPosition.x)                
             {
                 if (transform.position.x.Equals(Positions[0]))
                 {
@@ -187,8 +199,15 @@ public class Player : MonoBehaviour
                     destinationReached = false;
                 }
             }
+            else if (true)
+            {
+
+            }
         }
 
+
+
+        //Key input
         if (Input.GetKey(KeyCode.RightArrow))
         {
             if (transform.position.x.Equals(Positions[0]))

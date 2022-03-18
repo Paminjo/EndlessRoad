@@ -9,7 +9,7 @@ public class EndlessBackground : MonoBehaviour
 
     private Transform[] children;
     private float height;
-    private float scrollSpeed = -5f;
+    private float scrollSpeed = -2.5f;
 
     // Start is called before the first frame update
     private void Start()
