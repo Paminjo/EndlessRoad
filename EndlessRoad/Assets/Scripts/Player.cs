@@ -1,6 +1,5 @@
-using UnityEngine;
 using System.Timers;
-using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class Player : MonoBehaviour
@@ -17,22 +16,25 @@ public class Player : MonoBehaviour
         0.55f,
         1.7f
     };
+
     private int destination = 2;
     private bool destinationReached = true;
-    private float carSpeed = 5.0f;
+    private float carSpeed = 2.0f;
 
     //UI Data - Player info
     private Timer ScoreTimer = new Timer(1000);
+
     public Text ScoreText;
     private Transform ActualScoreText;
     private int Score = 0;
-    private float FuelLevel = 100;    
+    private float FuelLevel = 100;
     private int ScorePerUnit = 5;
     private int SpeedIncreaseToken = 1;
 
     //Data for Touch detection
     //public const float MinSwipeDistance = 0.08f;
     private Vector2 startTouchPosition, endTouchPosition;
+
     public static bool IsUserInputEnabled = true;
 
     // Start is called before the first frame update
@@ -42,7 +44,7 @@ public class Player : MonoBehaviour
         LosingScreen.enabled = false;
 
         Score = 0;
-        ScorePerUnit = 1;        
+        ScorePerUnit = 1;
 
         IsUserInputEnabled = true;
 
@@ -56,11 +58,10 @@ public class Player : MonoBehaviour
         FuelLevel -= 5;
     }
 
-
     // Update is called once per frame
     private void Update()
     {
-        if(IsUserInputEnabled)
+        if (IsUserInputEnabled)
         {
             UserInput();
         }
@@ -72,16 +73,16 @@ public class Player : MonoBehaviour
 
         ScoreText.text = Score.ToString();
 
-        if(Score/100 >= SpeedIncreaseToken)
+        if (Score / 100 >= SpeedIncreaseToken)
         {
             ScorePerUnit += 5;
-            foreach(var Road in Roads)
+            foreach (var Road in Roads)
             {
                 Road.gameObject.GetComponent<Rigidbody2D>().velocity *= 1.5f;
             }
             SpeedIncreaseToken++;
         }
-        if(FuelLevel >100)
+        if (FuelLevel > 100)
         {
             FuelLevel = 100;
         }
@@ -98,19 +99,19 @@ public class Player : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(
                 transform.position, new Vector2(
-                    Positions[destination], transform.position.y), carSpeed * 0.15f); //Time.deltatime removed cause it is shit
+                    Positions[destination], transform.position.y), carSpeed * 0.1f); //Time.deltatime removed cause it is shit
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
-    {      
+    {
         if (collider.gameObject.CompareTag("Coin"))
         {
             Score += 10;
         }
         if (collider.gameObject.tag.Equals("Canister"))
         {
-            FuelLevel += 20;            
+            FuelLevel += 20;
         }
         if (collider.gameObject.tag.Equals("StartLine"))
         {
@@ -121,12 +122,12 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.otherCollider.GetType().Equals(typeof(PolygonCollider2D)) 
+        if (collision.otherCollider.GetType().Equals(typeof(PolygonCollider2D))
             && collision.gameObject.CompareTag("WallObstacle"))
         {
             UserLost();
         }
-        else if (collision.otherCollider.GetType().Equals(typeof(BoxCollider2D)) 
+        else if (collision.otherCollider.GetType().Equals(typeof(BoxCollider2D))
             && collision.gameObject.CompareTag("GroundObstacle"))
         {
             UserLost();
@@ -152,18 +153,18 @@ public class Player : MonoBehaviour
     private void UserInput()
     {
         //touch swipe input
-        if (Input.touchCount > 0 
+        if (Input.touchCount > 0
             && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             startTouchPosition = Input.GetTouch(0).position;
         }
 
-        if (Input.touchCount == 1 
+        if (Input.touchCount == 1
             && Input.GetTouch(0).phase == TouchPhase.Ended)
         {
             endTouchPosition = Input.GetTouch(0).position;
 
-            if (endTouchPosition.x < startTouchPosition.x)              
+            if (endTouchPosition.x < startTouchPosition.x)
             {
                 if (transform.position.x.Equals(Positions[3]))
                 {
@@ -181,7 +182,7 @@ public class Player : MonoBehaviour
                     destinationReached = false;
                 }
             }
-            else if (endTouchPosition.x > startTouchPosition.x)                
+            else if (endTouchPosition.x > startTouchPosition.x)
             {
                 if (transform.position.x.Equals(Positions[0]))
                 {
@@ -201,11 +202,8 @@ public class Player : MonoBehaviour
             }
             else if (true)
             {
-
             }
         }
-
-
 
         //Key input
         if (Input.GetKey(KeyCode.RightArrow))
